@@ -1,0 +1,76 @@
+{
+  "url": "https://decathlonyestalgia.com",
+  "title": "Decathlon Yestalgia",
+  "stack": {
+    "THREE": false,
+    "gsap": false,
+    "ScrollTrigger": false,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 7,
+  "webgl": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+    "maxTexture": 8192,
+    "extensions": [
+      "EXT_color_buffer_float",
+      "EXT_color_buffer_half_float",
+      "EXT_float_blend",
+      "EXT_texture_compression_bptc",
+      "EXT_texture_compression_rgtc",
+      "EXT_texture_filter_anisotropic",
+      "OES_draw_buffers_indexed",
+      "OES_texture_float_linear",
+      "WEBGL_compressed_texture_astc",
+      "WEBGL_compressed_texture_etc",
+      "WEBGL_compressed_texture_etc1",
+      "WEBGL_compressed_texture_s3tc"
+    ]
+  },
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": true,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "\"Roboto Flex\", sans-serif"
+  ],
+  "bodyBg": "rgb(244, 244, 244)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [
+      "https://unpkg.com/@rive-app/webgl2@2.37.6/rive.wasm"
+    ],
+    "video": [
+      "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-MASTER-16-9.mp4",
+      "https://decathlonyestalgia.com/wp-content/uploads/2026/05/OG2K-Green-2.mp4",
+      "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Jacket.mp4",
+      "https://decathlonyestalgia.com/wp-content/uploads/2026/05/Short.mp4",
+      "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-VIEUX-9-16-.mp4",
+      "https://decathlonyestalgia.com/wp-content/uploads/2026/05/VDEF-FR-%E2%80%94-FILLE-9-16.mp4"
+    ],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://fonts.gstatic.com/s/robotoflex/v30/NaNeepOXO_NexZs0b5QrzlOHb8wCikXpYqmZsWI-__OGbt8jZktqc2V3Zs0KvDLdBP8SBZtOs2IifRuUZQMsPJtUsR4DEK6cULNeUx9XgTnH37Ha_FIAp4Fm0PP1hw45DntW2x0wZGzhPmr1YNMYKYn9_1IQXGwJAiUJVUMdN5YUW4O8HtSoXjC79QRyaLshNDUf9-EmF8tqHbE.woff2"
+    ]
+  },
+  "notableLibScripts": [],
+  "totalRequests": 112,
+  "consoleErrors": []
+}

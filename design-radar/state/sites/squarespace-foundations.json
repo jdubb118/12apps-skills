@@ -1,0 +1,63 @@
+{
+  "url": "https://brand.squarespace.com",
+  "title": "Squarespace Foundations | Squarespace Foundations",
+  "stack": {
+    "THREE": false,
+    "gsap": false,
+    "ScrollTrigger": true,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": true,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 1,
+  "webgl": null,
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": true,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "sans-serif",
+    "Clarkson"
+  ],
+  "bodyBg": "rgb(17, 17, 17)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [
+      "https://unpkg.com/@rive-app/canvas@2.32.2/rive.wasm"
+    ],
+    "video": [
+      "https://brand.squarespace.com/pages/home/campaign/01@lg.mp4",
+      "https://brand.squarespace.com/pages/home/campaign/02@lg.mp4",
+      "https://brand.squarespace.com/pages/home/campaign/03@lg.mp4",
+      "https://brand.squarespace.com/pages/home/campaign/04@lg.mp4",
+      "https://brand.squarespace.com/pages/home/campaign/05@lg.mp4",
+      "https://brand.squarespace.com/pages/home/campaign/06@lg.mp4"
+    ],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://brand.squarespace.com/fonts/clarkson-serif/clarkson-serif-ttf/ClarksonSerifTT-LightItalic.ttf",
+      "https://brand.squarespace.com/fonts/clarkson/clarkson-book/Clarkson-BookProduct.woff2",
+      "https://brand.squarespace.com/fonts/clarkson/clarkson-light/Clarkson-Light.woff2",
+      "https://brand.squarespace.com/fonts/clarkson/clarkson-medium/Clarkson-Medium.woff2",
+      "https://brand.squarespace.com/fonts/clarkson/clarkson-bold/Clarkson-Bold.woff2",
+      "https://brand.squarespace.com/fonts/clarkson/clarkson-semibold/Clarkson-Semibold.woff2"
+    ]
+  },
+  "notableLibScripts": [],
+  "totalRequests": 161,
+  "consoleErrors": []
+}

@@ -1,0 +1,61 @@
+{
+  "url": "https://www.noth.in",
+  "title": "Nothin' | Home",
+  "stack": {
+    "THREE": false,
+    "gsap": true,
+    "ScrollTrigger": true,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 0,
+  "webgl": null,
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": true,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "Ppneuemontreal, Arial, sans-serif",
+    "\"IBM Plex Mono\", sans-serif"
+  ],
+  "bodyBg": "rgb(255, 255, 255)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [],
+    "video": [
+      "https://noth-in.b-cdn.net/nothin-sharp-high.mp4",
+      "https://noth-in.b-cdn.net/showreel-nothin_DEF.mp4",
+      "https://noth-in.b-cdn.net/NOTHIN_MANIFESTE_CLEAN.mp4",
+      "https://noth-in.b-cdn.net/NOTHIN_MANIFESTE_REFLECT_H265.mp4"
+    ],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a0c501c42b9751b78a9d1d4_PPNeueMontreal-Bold.woff2",
+      "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a0c501c42b9751b78a9d1cc_PPNeueMontreal-Medium.woff2",
+      "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a0c501c42b9751b78a9d1cd_PPNeueMontreal-Regular.woff2",
+      "https://cdn.prod.website-files.com/6a0c501c42b9751b78a9d1a7/6a0c501c42b9751b78a9d1cf_PPNeueMontreal-Book.woff2",
+      "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1i8q131nj-o.woff2"
+    ]
+  },
+  "notableLibScripts": [
+    "webfont.js",
+    "gtm.js?id=GTM-TXXTT3WJ"
+  ],
+  "totalRequests": 48,
+  "consoleErrors": []
+}

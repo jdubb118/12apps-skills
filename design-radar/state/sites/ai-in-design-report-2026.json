@@ -1,0 +1,62 @@
+{
+  "url": "https://stateofaidesign.com",
+  "title": "AI in Design Report 2026",
+  "stack": {
+    "THREE": false,
+    "gsap": false,
+    "ScrollTrigger": false,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 0,
+  "webgl": null,
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": false,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "sans-serif",
+    "\"Beausite Classic Medium\", \"Beausite Classic Medium Placeholder\", sans-serif",
+    "\"Beausite Classic Regular\", \"Beausite Classic Regular Placeholder\", sans-serif",
+    "\"Geist Mono\", monospace",
+    "Inter, \"Inter Placeholder\", sans-serif"
+  ],
+  "bodyBg": "rgb(255, 255, 255)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [],
+    "video": [
+      "https://framerusercontent.com/assets/11fQjZ8SBLFtf9GDiGqEbzqKI8.webm",
+      "https://framerusercontent.com/assets/vMHevGIeALFuIZsCH4NOQ9K5FRM.webm",
+      "https://framerusercontent.com/assets/60TSo4WrKzA27Mp4KCDTmVbhc.webm",
+      "https://framerusercontent.com/assets/GxhkDLcDBfujafaVJCiFKoxE.webm",
+      "https://framerusercontent.com/assets/lL79Fmd1Pvt2WDRdt11xdoPD3Uw.webm",
+      "https://framerusercontent.com/assets/n4xIX9MPpD5lGFog1WLZ2I2UQyY.webm"
+    ],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://framerusercontent.com/assets/MBjc90WtMiSr0OrKYYmz40TcKU.woff2",
+      "https://framerusercontent.com/assets/Wqw1c5sXED5xQCM8PaZ7f1elFuw.woff2",
+      "https://fonts.gstatic.com/s/geistmono/v6/or3nQ6H-1_WfwkMZI_qYFrcdmg.woff2",
+      "https://framerusercontent.com/assets/GrgcKwrN6d3Uz8EwcLHZxwEfC4.woff2"
+    ]
+  },
+  "notableLibScripts": [],
+  "totalRequests": 72,
+  "consoleErrors": []
+}

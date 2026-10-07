@@ -1,0 +1,90 @@
+{
+  "url": "https://illoca.com",
+  "title": "illoca – AI tools for 2D drafting and 3D modeling",
+  "stack": {
+    "THREE": false,
+    "gsap": false,
+    "ScrollTrigger": false,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": true,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 1,
+  "webgl": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+    "maxTexture": 8192,
+    "extensions": [
+      "EXT_color_buffer_float",
+      "EXT_color_buffer_half_float",
+      "EXT_float_blend",
+      "EXT_texture_compression_bptc",
+      "EXT_texture_compression_rgtc",
+      "EXT_texture_filter_anisotropic",
+      "OES_draw_buffers_indexed",
+      "OES_texture_float_linear",
+      "WEBGL_compressed_texture_astc",
+      "WEBGL_compressed_texture_etc",
+      "WEBGL_compressed_texture_etc1",
+      "WEBGL_compressed_texture_s3tc"
+    ]
+  },
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": false,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "\"F37 Analog\", sans-serif",
+    "\"Graphik Web\", sans-serif",
+    "\"Geist Mono\", monospace"
+  ],
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "assets": {
+    "models": [
+      "https://illoca.com/webgl/models/building.glb",
+      "https://illoca.com/webgl/models/scene.glb",
+      "https://illoca.com/webgl/models/letter_scene.glb",
+      "https://illoca.com/webgl/models/footer.glb"
+    ],
+    "compressedTextures": [
+      "https://illoca.com/webgl/textures/floorplan-ai.ktx2",
+      "https://illoca.com/webgl/textures/grid-texture.ktx2",
+      "https://illoca.com/webgl/textures/voronoi.ktx2",
+      "https://illoca.com/webgl/textures/second-sketch.ktx2",
+      "https://illoca.com/webgl/textures/facades.ktx2",
+      "https://illoca.com/webgl/textures/floor-plan-hand-drawn.ktx2"
+    ],
+    "hdrEnv": [],
+    "wasm": [
+      "https://illoca.com/draco/draco_decoder.wasm",
+      "https://illoca.com/basis/basis_transcoder.wasm"
+    ],
+    "video": [],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://illoca.com/fonts/Graphik-Regular-Web.woff2",
+      "https://illoca.com/fonts/Graphik-Medium-Web.woff2",
+      "https://illoca.com/fonts/F37Analog-Medium.woff2",
+      "https://illoca.com/fonts/ArchitectProMarkerCap.woff2",
+      "https://fonts.gstatic.com/s/geistmono/v6/or3yQ6H-1_WfwkMZI_qYPLs1a-t7PU0AbeEPKK5U5Cl4PuCTfNg.woff2",
+      "https://illoca.com/fonts/ArchitectProSymbols.woff2"
+    ]
+  },
+  "notableLibScripts": [],
+  "totalRequests": 137,
+  "consoleErrors": []
+}

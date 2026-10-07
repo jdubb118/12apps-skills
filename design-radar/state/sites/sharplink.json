@@ -1,0 +1,79 @@
+{
+  "url": "https://www.sharplink.com",
+  "title": "Sharplink : Home",
+  "stack": {
+    "THREE": false,
+    "gsap": false,
+    "ScrollTrigger": false,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 3,
+  "webgl": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+    "maxTexture": 8192,
+    "extensions": [
+      "EXT_color_buffer_float",
+      "EXT_color_buffer_half_float",
+      "EXT_float_blend",
+      "EXT_texture_compression_bptc",
+      "EXT_texture_compression_rgtc",
+      "EXT_texture_filter_anisotropic",
+      "OES_draw_buffers_indexed",
+      "OES_texture_float_linear",
+      "WEBGL_compressed_texture_astc",
+      "WEBGL_compressed_texture_etc",
+      "WEBGL_compressed_texture_etc1",
+      "WEBGL_compressed_texture_s3tc"
+    ]
+  },
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": true,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "Archivo, \"Archivo Fallback: Arial\", sans-serif",
+    "\"Archivo Narrow\", \"Archivo Narrow Fallback: Arial\"",
+    "Archivo, \"Archivo Fallback: Arial\""
+  ],
+  "bodyBg": "rgb(247, 247, 245)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [],
+    "video": [
+      "https://a.storyblok.com/f/290008427472090/x/87414464bd/shrp_homepagehero_30fps.webm",
+      "https://a.storyblok.com/f/290008427472090/x/324ca8b2c3/shrp_homeopportunity_chrome.webm"
+    ],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://www.sharplink.com/_fonts/_XuICyHqMUQlBU4wOffixZRQXNIMdN-maET_zsf0tPU-7x1PAHKtnxjZKVbcaqnQInFt8d7Khx9JSpmI9XYd3sk.woff",
+      "https://www.sharplink.com/_fonts/PLEQuoZ_yrioTa7uv9aQYeMtD2JPRMo2fbBE0zZLgFk-WPEEcC1PE3kyRlTCBArvjkbJaChGYYg6woy_L9DLmpc.woff",
+      "https://www.sharplink.com/_fonts/RrzxofFEHULlTQpi7gUvlitrp8PdshyKPr2GQSrSgZ4-HPSudR611kWGatQkGvjNdjmJRkHc4ltqzoa_4i893tc.woff",
+      "https://www.sharplink.com/_fonts/rNy6YQITXMdF0hZfCD_a7PwDKwUahX0hxliuCw7YHN4-t3f268HUjLs1gCiXmELwB8GosVRVAY2wCwOFiaARdnI.woff2",
+      "https://www.sharplink.com/_fonts/M85Z2YN5xXH47bXY7_FbdfGnPVNa2g9CR8aPiLNHYFU-aC5IqorxHq3iZ_tUjaH6CP0Z5DxB64UE42QwxRHSLc4.woff2",
+      "https://www.sharplink.com/_fonts/h17-a1gb-gDeCk7ExcjnpS6g7yBKlyzQwy9vLIgPyzs-CEk_9yNEAcu3aD5ckw_WzlykIidJOli0MFsqZzXs4RY.woff"
+    ]
+  },
+  "notableLibScripts": [],
+  "totalRequests": 104,
+  "consoleErrors": [
+    "Hydration completed but contains mismatches."
+  ]
+}

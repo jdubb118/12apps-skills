@@ -1,0 +1,80 @@
+{
+  "url": "https://revelatio.studio",
+  "title": "Revelatio | Branding, Product Design & Code",
+  "stack": {
+    "THREE": false,
+    "gsap": true,
+    "ScrollTrigger": true,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 2,
+  "webgl": {
+    "version": "WebGL 1.0 (OpenGL ES 2.0 Chromium)",
+    "glsl": "WebGL GLSL ES 1.0 (OpenGL ES GLSL ES 1.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+    "maxTexture": 8192,
+    "extensions": [
+      "EXT_color_buffer_half_float",
+      "EXT_float_blend",
+      "EXT_texture_compression_bptc",
+      "EXT_texture_compression_rgtc",
+      "EXT_texture_filter_anisotropic",
+      "OES_texture_float",
+      "OES_texture_float_linear",
+      "OES_texture_half_float",
+      "OES_texture_half_float_linear",
+      "WEBGL_color_buffer_float",
+      "WEBGL_compressed_texture_astc",
+      "WEBGL_compressed_texture_etc"
+    ]
+  },
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": true,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "\"Neue Haas Grotesk Text Pro 55 Roman\", Arial, sans-serif"
+  ],
+  "bodyBg": "rgb(0, 0, 0)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [],
+    "video": [
+      "https://cdn.prod.website-files.com/69ebb4638e4c654fe1990271%2F6a1ad98e81c60eedf1888470_REVELATIO%20VIDEO_v2%20%281%29%20%281%29_mp4.mp4",
+      "https://vod-adaptive-ak.vimeocdn.com/exp=1788665747~acl=%2F0f1a95b7-2ec6-4041-b03d-c03839a84689%2Fpsid%3Dcf40bf42bb1a5abdab06f79b61b3c854d009b0d91788662147%2F%2A~hmac=d42facecb333bf02f0f40240d22fc537ed0b20cbadd04fc14436e5befadc23c8/0f1a95b7-2ec6-4041-b03d-c03839a84689/psid=cf40bf42bb1a5abdab06f79b61b3c854d009b0d91788662147/v2/range/prot/cmFuZ2U9NzQ2LTUzOTU/avf/b625ac6d-de55-40cd-b4a0-00199c42e4a4.mp4?pathsig=8c953e4f~3fE8C9yNXGn1oZWGPT9OSnChZDWfVysqWourZY_HLes&r=dXM%3D&range=746-5395",
+      "https://vod-adaptive-ak.vimeocdn.com/exp=1788665747~acl=%2F4ad6cba0-5675-44d5-8443-02123582caf8%2Fpsid%3D1219c8acf72dfc451f1a40a6bc6a3755b545ff251788662147%2F%2A~hmac=a5a32392bcab1226001c520e4d143a1ec34c92ecc0650d85d75ceece9ab9be90/4ad6cba0-5675-44d5-8443-02123582caf8/psid=1219c8acf72dfc451f1a40a6bc6a3755b545ff251788662147/v2/range/prot/cmFuZ2U9ODQ5LTI3OTA4MTk/avf/b7668769-fc5c-4209-8809-55b4d6c0aeb0.mp4?pathsig=8c953e4f~KYlKcyedWx86CLdeqVLcTYL6rkAmrXZb4yrDJev6tWY&r=dXMtd2VzdDE%3D&range=849-2790819",
+      "https://vod-adaptive-ak.vimeocdn.com/exp=1788665747~acl=%2F1251f97a-7f6c-4680-8353-d5cd23d671f3%2Fpsid%3De082d70796d5edd59755320ae620c66f00c6f1e31788662147%2F%2A~hmac=626df7dbda7965b6599c9888ed26bc6ea79469da0efe52dd286abe3ffdb07e1b/1251f97a-7f6c-4680-8353-d5cd23d671f3/psid=e082d70796d5edd59755320ae620c66f00c6f1e31788662147/v2/range/prot/cmFuZ2U9NzQ2LTUzOTU/avf/8caa3b8e-941a-4240-8fbc-4c61cf2253db.mp4?pathsig=8c953e4f~MhEm6ieD7ZvD9OUn-9FrnXaa_c_ueoHxnxAK2HPrxHU&r=dXM%3D&range=746-5395",
+      "https://vod-adaptive-ak.vimeocdn.com/exp=1788665747~acl=%2Fa1082dea-8b0f-4d2b-aaa4-0f207fee6c57%2Fpsid%3D617f4163c5924ed8fbc0605b569e29687aafda3e1788662147%2F%2A~hmac=f1c2c40b4d882a3f25c886d1a7564b05a218b112da340d8ba5301499408ac691/a1082dea-8b0f-4d2b-aaa4-0f207fee6c57/psid=617f4163c5924ed8fbc0605b569e29687aafda3e1788662147/v2/range/prot/cmFuZ2U9NzM0LTY0NDg/avf/2b6eade9-c4fa-41ee-b5d9-25f38251cb1b.mp4?pathsig=8c953e4f~u8s7IMjJ-hXEFhl7bBkNtPJFZKZoj41TnnxkwSDHNgU&r=dXM%3D&range=734-6448",
+      "https://vod-adaptive-ak.vimeocdn.com/exp=1788665747~acl=%2F34c285ac-9862-45cc-871a-eebd8fdae244%2Fpsid%3D0356b1fa57f1d91f819550f8af7efaf647b7ce2d1788662147%2F%2A~hmac=0308231451de0a7ba4aaed0b7e2c91e6cf1a286fa8d8d77cb981c26a9abd047e/34c285ac-9862-45cc-871a-eebd8fdae244/psid=0356b1fa57f1d91f819550f8af7efaf647b7ce2d1788662147/v2/range/prot/cmFuZ2U9ODQ5LTEzOTE2Mjk/avf/f6f4c569-b76d-449e-b4d7-dcec1b0b26a6.mp4?pathsig=8c953e4f~nb2yN27popd6m4XQpNlcSia9tneOiyt3J5z9KssNp5s&r=dXMtY2VudHJhbDE%3D&range=849-1391629"
+    ],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://cdn.prod.website-files.com/6a1dba8694fc8f455cf5585d/6a1dba8694fc8f455cf5586b_neue-haas-grotesk-text-pro-55-roman.ttf"
+    ]
+  },
+  "notableLibScripts": [
+    "gsap.min.js",
+    "ScrollTrigger.min.js",
+    "SplitText.min.js",
+    "ScrambleTextPlugin.min.js",
+    "Observer.min.js"
+  ],
+  "totalRequests": 149,
+  "consoleErrors": []
+}

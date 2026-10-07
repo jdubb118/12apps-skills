@@ -1,0 +1,32 @@
+/* motion-kit — tokens + type. EDIT THE TOKENS for your brand (keep brand.json's accent_rgb in step,
+   the QA gate measures accent coverage with it). One family, loaded from a FILE: HyperFrames renders with
+   whatever the page can load, and a missing webfont silently becomes a system font.
+   Sizes are for a 1080-wide frame: a website's 11px label reads as ~30px here on a phone. */
+@font-face { font-family: "Inter"; src: url("Inter-variable.ttf") format("truetype-variations"); font-weight: 100 900; }
+
+:root {
+  --surface: #f2f1ec;  --panel: #ffffff;  --inset: #e9e7e1;     /* light register: warm paper */
+  --ink: #111317;      --body: #2b2e36;
+  --accent: #3b5bdb;                                            /* the ONE accent, light register */
+  --dark: #08090f;     --dark-panel: #10131c;                   /* dark register / end card */
+  --accent-d: #7c95ff;                                          /* the accent on dark */
+  --ease-house: cubic-bezier(0.22, 1, 0.36, 1);
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--surface); }
+#root { position: relative; width: 1080px; height: 1920px; overflow: hidden; font-family: "Inter", sans-serif;
+        -webkit-font-smoothing: antialiased; color: var(--ink); font-optical-sizing: auto; }
+.abs  { position: absolute; left: 0; top: 0; }
+.full { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+.m    { overflow: hidden; }                                   /* reveal mask: spacing goes on the MASK, never the line */
+.ln   { display: block; width: max-content; white-space: nowrap; font-weight: 650;
+        letter-spacing: -0.035em; line-height: 1.02; font-variation-settings: "wght" 650; }   /* restyle per brand */
+.lbl  { display: block; width: max-content; white-space: nowrap; font-weight: 500;
+        font-size: 30px; letter-spacing: 0.6px; line-height: 1.1; }  /* tween letter-spacing in PX with autoRound:false */
+.bl   { display: inline-block; width: 0; height: 0; vertical-align: baseline; }   /* baseline marker (MK.inkTop) */
+.sub  { display: block; font-weight: 300; font-size: 34px; line-height: 1.3; letter-spacing: -0.005em; }
+.word { position: absolute; white-space: nowrap; font-weight: 800; letter-spacing: -0.045em; line-height: 1; }
+.acc  { color: var(--accent); }
+.dark .acc, .acc-d { color: var(--accent-d); }
+.hair { position: absolute; height: 2px; background: var(--accent); transform-origin: 0 50%; }
+.grain { position: absolute; inset: 0; pointer-events: none; background: url("grain.png"); opacity: .07; mix-blend-mode: overlay; }

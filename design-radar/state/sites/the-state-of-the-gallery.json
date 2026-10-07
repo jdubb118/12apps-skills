@@ -1,0 +1,55 @@
+{
+  "url": "https://mesh3d.gallery",
+  "title": "Three.js & WebGL Website Inspiration | mesh3d",
+  "stack": {
+    "THREE": false,
+    "gsap": false,
+    "ScrollTrigger": false,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": true,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 2,
+  "webgl": null,
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": false,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "Geist, \"Geist Fallback\"",
+    "overusedGrotesk, \"overusedGrotesk Fallback\""
+  ],
+  "bodyBg": "rgb(8, 9, 13)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [],
+    "video": [
+      "https://cdn.mesh3d.gallery/videos/1783588683706-zkdol9s-why.zero.university.mp4"
+    ],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://mesh3d.gallery/_next/static/media/797e433ab948586e-s.p.08e28id.o-okb.woff2?dpl=8086c6a144b367357d782bf6d292b3ca83858078",
+      "https://mesh3d.gallery/_next/static/media/OverusedGrotesk_Roman-s.p.056lg4ejrg7tz.woff2?dpl=8086c6a144b367357d782bf6d292b3ca83858078",
+      "https://mesh3d.gallery/_next/static/media/caa3a2e1cccd8315-s.p.09~u27dqhyhd6.woff2?dpl=8086c6a144b367357d782bf6d292b3ca83858078"
+    ]
+  },
+  "notableLibScripts": [],
+  "totalRequests": 82,
+  "consoleErrors": [
+    "Loading the script 'https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495' "
+  ]
+}

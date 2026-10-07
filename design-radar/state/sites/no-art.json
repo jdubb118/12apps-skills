@@ -1,0 +1,85 @@
+{
+  "url": "https://www.noartmusic.com",
+  "title": "Broaden your mind | No Art",
+  "stack": {
+    "THREE": true,
+    "gsap": true,
+    "ScrollTrigger": true,
+    "Lenis": true,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 1,
+  "webgl": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+    "maxTexture": 8192,
+    "extensions": [
+      "EXT_color_buffer_float",
+      "EXT_color_buffer_half_float",
+      "EXT_float_blend",
+      "EXT_texture_compression_bptc",
+      "EXT_texture_compression_rgtc",
+      "EXT_texture_filter_anisotropic",
+      "OES_draw_buffers_indexed",
+      "OES_texture_float_linear",
+      "WEBGL_compressed_texture_astc",
+      "WEBGL_compressed_texture_etc",
+      "WEBGL_compressed_texture_etc1",
+      "WEBGL_compressed_texture_s3tc"
+    ]
+  },
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": true,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "Chivomono, Arial, sans-serif",
+    "\"Nue Haas Grotesk Text Pro\", Arial, sans-serif"
+  ],
+  "bodyBg": "rgb(255, 255, 255)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [],
+    "video": [],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://cdn.prod.website-files.com/6a229697fcb91dd168682307/6a229697fcb91dd16868234c_ChivoMono-Regular.ttf",
+      "https://cdn.prod.website-files.com/6a229697fcb91dd168682307/6a229697fcb91dd16868234b_ChivoMono-Medium.ttf",
+      "https://cdn.prod.website-files.com/6a229697fcb91dd168682307/6a229697fcb91dd168682347_NHaasGroteskTXPro-75Bd.ttf",
+      "https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwgknk-4.woff2"
+    ]
+  },
+  "notableLibScripts": [
+    "three.min.js",
+    "gsap.min.js",
+    "ScrollTrigger.min.js",
+    "SplitText.min.js",
+    "ScrambleTextPlugin.min.js",
+    "Flip.min.js",
+    "CustomEase.min.js",
+    "Observer.min.js",
+    "Draggable.min.js",
+    "InertiaPlugin.min.js",
+    "lenis.min.js"
+  ],
+  "totalRequests": 120,
+  "consoleErrors": [
+    "No cart module found on this page. Please add Storesynk's cart module to all your pages."
+  ]
+}

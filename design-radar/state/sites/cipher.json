@@ -1,0 +1,75 @@
+{
+  "url": "https://cipher.tv",
+  "title": "CIPHER",
+  "stack": {
+    "THREE": false,
+    "gsap": false,
+    "ScrollTrigger": false,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": true,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 3,
+  "webgl": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+    "maxTexture": 8192,
+    "extensions": [
+      "EXT_color_buffer_float",
+      "EXT_color_buffer_half_float",
+      "EXT_float_blend",
+      "EXT_texture_compression_bptc",
+      "EXT_texture_compression_rgtc",
+      "EXT_texture_filter_anisotropic",
+      "OES_draw_buffers_indexed",
+      "OES_texture_float_linear",
+      "WEBGL_compressed_texture_astc",
+      "WEBGL_compressed_texture_etc",
+      "WEBGL_compressed_texture_etc1",
+      "WEBGL_compressed_texture_s3tc"
+    ]
+  },
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": true,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "Favorit"
+  ],
+  "bodyBg": "rgb(0, 0, 0)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [],
+    "video": [
+      "https://player.vimeo.com/progressive_redirect/playback/1185898674/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&signature=ccb7b3e9e9eb2d83f5a2d0acfd6e8ef9e6adf5a80b39851d241586c49672ed23",
+      "https://player.vimeo.com/progressive_redirect/playback/1185837218/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&signature=05a7c65a5a16a5a593711c5ae25c738a32f08677a435091c7d6e5a746216c596",
+      "https://player.vimeo.com/progressive_redirect/playback/1186196665/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&signature=0516536a0cfc08ce89ed9ad718b0d7831b3452e3c9e71474dd0505e9c5caa89e",
+      "https://player.vimeo.com/progressive_redirect/playback/1185940380/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&signature=ad24c9777d4f7b5988963ee23ab9643a926ff9f02c17aa87cce140875f04d8b9",
+      "https://player.vimeo.com/progressive_redirect/playback/1177282630/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&signature=d3edd4f4d259ef4e5d65105df180073ff3e93a5c177160c3f5b7f5620c0efe25",
+      "https://player.vimeo.com/progressive_redirect/playback/1196592305/rendition/540p/file.mp4%20%28540p%29.mp4?loc=external&signature=89e0a0128cc1523e2490d668f4152d59e83caa5a051929eb416cbf518d594d19"
+    ],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://cipher.tv/fonts/ABCArizonaMixVariable.woff2",
+      "https://cipher.tv/fonts/ABCFavoritVariable.woff2"
+    ]
+  },
+  "notableLibScripts": [],
+  "totalRequests": 46,
+  "consoleErrors": []
+}

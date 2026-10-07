@@ -1,0 +1,103 @@
+{
+  "url": "https://otsuka-air.jp",
+  "title": "/zeroz（ゼロズ）公式サイト | 大塚製薬",
+  "stack": {
+    "THREE": false,
+    "gsap": false,
+    "ScrollTrigger": false,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 1,
+  "webgl": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+    "maxTexture": 8192,
+    "extensions": [
+      "EXT_color_buffer_float",
+      "EXT_color_buffer_half_float",
+      "EXT_float_blend",
+      "EXT_texture_compression_bptc",
+      "EXT_texture_compression_rgtc",
+      "EXT_texture_filter_anisotropic",
+      "OES_draw_buffers_indexed",
+      "OES_texture_float_linear",
+      "WEBGL_compressed_texture_astc",
+      "WEBGL_compressed_texture_etc",
+      "WEBGL_compressed_texture_etc1",
+      "WEBGL_compressed_texture_s3tc"
+    ]
+  },
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": true,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "HelveticaNowDisplay-Regular, sans-serif",
+    "TazuganeGothicStdN-Medium, sans-serif",
+    "TazuganeGothicStdN-Bold, sans-serif",
+    "TazuganeGothicStdN-Regular, sans-serif"
+  ],
+  "bodyBg": "rgb(17, 19, 18)",
+  "assets": {
+    "models": [
+      "https://otsuka-air.jp/assets/models/otsuka_kv_export.glb",
+      "https://otsuka-air.jp/assets/models/otsuka_tablet_tantai_export.glb",
+      "https://otsuka-air.jp/assets/models/otsuka_bag_tantai_export.glb"
+    ],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [
+      "https://otsuka-air.jp/assets/models/draco/draco_decoder.wasm"
+    ],
+    "video": [
+      "https://otsuka-air.jp/assets/video/about.mp4",
+      "https://otsuka-air.jp/assets/video/science_technology.mp4",
+      "https://otsuka-air.jp/assets/video/product.mp4",
+      "https://otsuka-air.jp/assets/video/interview.mp4"
+    ],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": []
+  },
+  "notableLibScripts": [
+    "gtm.js?id=GTM-PFCFBJ",
+    "gtm.js?id=GTM-WS3WF7B",
+    "gtm.js?id=GTM-TFSNN4N8&gtm=4e6921h1",
+    "gtm.js?id=GTM-KMFPJPCH&gtm=4e6921h1",
+    "gtm.js?id=GTM-KS9LXQGJ&gtm=4e6921h1",
+    "gtm.js?id=GTM-5NQT69KM&gtm=4e6921h1",
+    "gtm.js?id=GTM-TRKBBZFM&gtm=4e6921h1",
+    "gtm.js?id=GTM-K4R9KGGN&gtm=4e6921h1",
+    "gtm.js?id=GTM-MVNDX6Q3&gtm=4e6921h1",
+    "gtm.js?id=GTM-NXXSXJXR&gtm=4e6921h1",
+    "gtm.js?id=GTM-KL7BRGJ4&gtm=4e6921h1",
+    "gtm.js?id=GTM-MD3HRP8C&gtm=4e6921h1",
+    "gtm.js?id=GTM-KT35N2SJ&gtm=4e6921h1",
+    "gtm.js?id=GTM-TPFNSZJ6&gtm=4e6921h1",
+    "gtm.js?id=GTM-NGZP6X9K&gtm=4e6921h1",
+    "gtm.js?id=GTM-PRN8SKKG&gtm=4e6921h1",
+    "gtm.js?id=GTM-5BZ8C2WJ&gtm=4e6921h1",
+    "gtm.js?id=GTM-K9H2S437&gtm=4e6921h1",
+    "gtm.js?id=GTM-WTP72FWX&gtm=4e6921h1",
+    "gtm.js?id=GTM-NCLGSKDQ&gtm=4e6921h1"
+  ],
+  "totalRequests": 356,
+  "consoleErrors": [
+    "Refused to execute script from 'https://pp.d2-apps.net/v1/impressions/log?client_id=172&site_url=https%3A%2F%2Fotsuka-ai"
+  ]
+}

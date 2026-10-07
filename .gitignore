@@ -1,0 +1,9 @@
+node_modules/
+__pycache__/
+.DS_Store
+*.pyc
+renders/
+vision-lift/lift
+vision-lift/lift-video
+design-radar/state/heartbeat.txt
+design-radar/state/radar.log

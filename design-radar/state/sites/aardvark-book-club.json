@@ -1,0 +1,63 @@
+{
+  "url": "https://aardvarkbookclub.com",
+  "title": "Aardvark Book Club - Unbox stories worth talking about",
+  "stack": {
+    "THREE": false,
+    "gsap": true,
+    "ScrollTrigger": true,
+    "Lenis": true,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": true,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 2,
+  "webgl": null,
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": true,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "Degular, Arial, sans-serif",
+    "Champ, Arial, sans-serif",
+    "\"Hello Organichand Webfont\", Arial, sans-serif"
+  ],
+  "bodyBg": "rgb(255, 255, 255)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [],
+    "video": [],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/6963d2cdeaa0084ad1abd7f0_Champ-ExtraBold.woff",
+      "https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/69c51e46ef7236cf68eaef2e_degular-semibold.woff2",
+      "https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/6963d3bce4c07135f1d68628_hello-organichand-webfont.woff2",
+      "https://cdn.prod.website-files.com/696173cb00865d1b386e4af8/69c520c7360396435501e587_degular-bold.woff2"
+    ]
+  },
+  "notableLibScripts": [
+    "barba.umd.min.js",
+    "barba-prefetch.umd.min.js",
+    "gsap.min.js",
+    "ScrollTrigger.min.js",
+    "SplitText.min.js",
+    "CustomEase.min.js",
+    "InertiaPlugin.min.js",
+    "DrawSVGPlugin.min.js",
+    "lenis.min.js"
+  ],
+  "totalRequests": 177,
+  "consoleErrors": []
+}

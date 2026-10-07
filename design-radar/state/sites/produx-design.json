@@ -1,0 +1,82 @@
+{
+  "url": "https://www.produx.design",
+  "title": "PRODUX | Design that Speaks",
+  "stack": {
+    "THREE": false,
+    "gsap": false,
+    "ScrollTrigger": false,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": true,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 14,
+  "webgl": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+    "maxTexture": 8192,
+    "extensions": [
+      "EXT_color_buffer_float",
+      "EXT_color_buffer_half_float",
+      "EXT_float_blend",
+      "EXT_texture_compression_bptc",
+      "EXT_texture_compression_rgtc",
+      "EXT_texture_filter_anisotropic",
+      "OES_draw_buffers_indexed",
+      "OES_texture_float_linear",
+      "WEBGL_compressed_texture_astc",
+      "WEBGL_compressed_texture_etc",
+      "WEBGL_compressed_texture_etc1",
+      "WEBGL_compressed_texture_s3tc"
+    ]
+  },
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": true,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+    "\"DM Mono\"",
+    "\"At Aero\"",
+    "\"At Aero Regular\""
+  ],
+  "bodyBg": "rgb(14, 14, 14)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [],
+    "video": [
+      "https://www.produx.design/videos/PageTransitionLogo.webm",
+      "https://www.produx.design/ContributionVideos/Vid%201.webm",
+      "https://www.produx.design/ContributionVideos/Vid%202.webm",
+      "https://www.produx.design/ContributionVideos/Vid%203.webm",
+      "https://www.produx.design/ContributionVideos/Vid%204.webm",
+      "https://www.produx.design/videos/JournalVideos/1.mp4"
+    ],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://www.produx.design/_next/static/media/DMMono-Regular.0o2e964hvo05l.ttf?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw",
+      "https://www.produx.design/_next/static/media/DMMono-Medium.125t044ujdbxa.ttf?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw",
+      "https://www.produx.design/_next/static/media/AtAero-Retina.0_91iicuqc4p1.otf?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw",
+      "https://www.produx.design/_next/static/media/DMMono-Light.02.9dod98p6.u.ttf?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw",
+      "https://www.produx.design/_next/static/media/AtAero-Medium.0amks-hcn-0_k.otf?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw",
+      "https://www.produx.design/_next/static/media/AtAero-Regular.0uw80pfpdnq_a.otf?dpl=dpl_9zjmim84747VmasMgP56UBazuqUw"
+    ]
+  },
+  "notableLibScripts": [],
+  "totalRequests": 404,
+  "consoleErrors": []
+}

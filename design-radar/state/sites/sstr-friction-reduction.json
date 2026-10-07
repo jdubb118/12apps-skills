@@ -1,0 +1,85 @@
+{
+  "url": "https://sstr.tech",
+  "title": "ССТР — Системы снижения трения",
+  "stack": {
+    "THREE": false,
+    "gsap": true,
+    "ScrollTrigger": true,
+    "Lenis": true,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": true,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 1,
+  "webgl": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+    "maxTexture": 8192,
+    "extensions": [
+      "EXT_color_buffer_float",
+      "EXT_color_buffer_half_float",
+      "EXT_float_blend",
+      "EXT_texture_compression_bptc",
+      "EXT_texture_compression_rgtc",
+      "EXT_texture_filter_anisotropic",
+      "OES_draw_buffers_indexed",
+      "OES_texture_float_linear",
+      "WEBGL_compressed_texture_astc",
+      "WEBGL_compressed_texture_etc",
+      "WEBGL_compressed_texture_etc1",
+      "WEBGL_compressed_texture_s3tc"
+    ]
+  },
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": true,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "Arial, \"Helvetica Neue\", Helvetica, sans-serif",
+    "\"ABC Monument Grotesk\", Arial, sans-serif",
+    "\"ABC Monument Grotesk Cyrillic Mono Variable\", Iosevka, \"JetBrains Mono\", \"SF Mono\", Menlo, monospace"
+  ],
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "assets": {
+    "models": [
+      "https://sstr.tech/webgl/assets/scenes/29-06-light.glb",
+      "https://sstr.tech/webgl/assets/scenes/PDC_Drill.glb"
+    ],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [
+      "https://sstr.tech/webgl/draco/draco_decoder.wasm"
+    ],
+    "video": [
+      "https://sstr.tech/videos/main-framerate_webm.webm",
+      "https://sstr.tech/videos/frs-tool-video_static_webm.webm",
+      "https://sstr.tech/videos/svr-tool-video_static2_webm.webm"
+    ],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://sstr.tech/fonts/ABC-Monument-Grotesk.woff2"
+    ]
+  },
+  "notableLibScripts": [
+    "gsap.min.js",
+    "ScrollTrigger.min.js",
+    "barba.umd.js",
+    "lenis.min.js",
+    "sstr-scene.js?v=20260714n",
+    "draco_wasm_wrapper.js"
+  ],
+  "totalRequests": 60,
+  "consoleErrors": []
+}

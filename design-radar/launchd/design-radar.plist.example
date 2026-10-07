@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Weekly design-radar run (Sundays 06:30). Replace the two ALL-CAPS paths, then:
+       cp design-radar.plist.example ~/Library/LaunchAgents/com.example.design-radar.plist
+       launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.example.design-radar.plist
+     launchd's PATH has no Homebrew: PYTHON and the PATH below must point at real binaries.
+     Check it ran: `launchctl list | grep design-radar` (the 2nd column is the last exit code)
+     and state/heartbeat.txt. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.example.design-radar</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/ABSOLUTE/PATH/TO/python3</string>
+    <string>/ABSOLUTE/PATH/TO/design-radar/scripts/radar-run.py</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict><key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string></dict>
+  <key>StartCalendarInterval</key>
+  <dict><key>Weekday</key><integer>0</integer><key>Hour</key><integer>6</integer><key>Minute</key><integer>30</integer></dict>
+  <key>StandardOutPath</key><string>/ABSOLUTE/PATH/TO/design-radar/state/radar.log</string>
+  <key>StandardErrorPath</key><string>/ABSOLUTE/PATH/TO/design-radar/state/radar.log</string>
+</dict>
+</plist>

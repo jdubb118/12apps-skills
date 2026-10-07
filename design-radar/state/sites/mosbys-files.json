@@ -1,0 +1,54 @@
+{
+  "url": "https://www.mosbyfiles.com",
+  "title": "Mosby’s Files—American Modernist Architecture",
+  "stack": {
+    "THREE": false,
+    "gsap": false,
+    "ScrollTrigger": false,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": true,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 0,
+  "webgl": null,
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": true,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "Signifier, serif",
+    "\"Founders Grotesk\", sans-serif",
+    "\"IBM Plex Mono\", sans-serif"
+  ],
+  "bodyBg": "rgb(25, 25, 25)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [],
+    "video": [],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://fonts.gstatic.com/s/ibmplexmono/v20/-F63fjptAgt5VM-kVkqdyU8n1i8q131nj-o.woff2",
+      "https://www.mosbyfiles.com/fonts/founders-grotesk-x-condensed-bold.woff2",
+      "https://www.mosbyfiles.com/fonts/signifier-light.woff2"
+    ]
+  },
+  "notableLibScripts": [],
+  "totalRequests": 35,
+  "consoleErrors": [
+    "Hydration completed but contains mismatches."
+  ]
+}

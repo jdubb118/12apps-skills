@@ -1,0 +1,51 @@
+{
+  "url": "https://hobro.digital",
+  "title": "Just a moment...",
+  "stack": {
+    "THREE": false,
+    "gsap": false,
+    "ScrollTrigger": false,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 0,
+  "webgl": null,
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": false,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "system-ui, -apple-system, \"system-ui\", \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, \"Noto Sans\", sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\""
+  ],
+  "bodyBg": "rgba(0, 0, 0, 0)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [],
+    "video": [],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": []
+  },
+  "notableLibScripts": [],
+  "totalRequests": 19,
+  "consoleErrors": [
+    "Failed to load resource: the server responded with a status of 403 ()",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "%c%d font-size:0;color:transparent NaN",
+    "%c%d font-size:0;color:transparent NaN"
+  ]
+}

@@ -1,0 +1,4 @@
+state/heartbeat.txt
+state/radar.log
+scripts/node_modules/
+__pycache__/

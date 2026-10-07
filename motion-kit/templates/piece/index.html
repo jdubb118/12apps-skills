@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src="assets/kit/gsap.min.js"></script>
+<script src="assets/kit/mk.js"></script>
+<link rel="stylesheet" href="assets/kit/mk.css">
+<style>
+  /* ── <PIECE TITLE> ── the ONE idea in one sentence. Approved copy only (COPY.md).
+     Skeleton: centred headline → line wipe → end card. Restyle mk.css + brand.json first. Grow it act by act. */
+  .scene { position:absolute; left:0; top:0; width:1080px; height:1920px; overflow:hidden; background:var(--dark); }
+  .wline { position:absolute; left:0; top:0; width:1080px; height:3px; background:var(--accent-d); box-shadow:0 0 18px 2px rgba(124,149,255,.55); }
+  #sEnd { color:#fff; }
+  #endMark { position:absolute; font-weight:800; font-size:150px; letter-spacing:-0.05em; line-height:1; color:#fff; }
+  #endTag { position:absolute; font-weight:300; font-size:35px; line-height:1.3; color:#fff; white-space:nowrap; }
+  #endLine { position:absolute; height:2px; background:var(--accent-d); transform-origin:0 50%; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-width="1080" data-height="1920" data-start="0" data-duration="8">
+  <div id="hud" class="full"></div>
+  <div id="sEnd" class="scene">
+    <div id="endMark">BRAND<span class="bl"></span></div>
+    <div id="endTag">Your line here.</div>
+    <div id="endLine"></div>
+  </div>
+  <div class="wline" id="wEnd"></div>
+  <div class="grain" id="grain" style="background-image:url('assets/kit/grain.png')"></div>
+</div>
+<script>
+document.fonts.ready.then(() => {
+  const $ = MK.$, DUR = 8;
+  const tl = gsap.timeline({ paused: true });
+
+  // ── ACT 1 · studio: the idea as a stacked headline (exactly one accent line)
+  const eyebrow = MK.label($("hud"), "Season one", { size: 30, color: "rgba(17,19,23,.6)" });
+  MK.place(eyebrow, (1080 - eyebrow.offsetWidth) / 2, 640);
+  const H1 = MK.headline($("hud"), ["Your idea,", "said simply."], { x: 0, y: 700, width: 860, size: 130, leading: 6 });
+  H1.box.style.left = (1080 - H1.box.offsetWidth) / 2 + "px";
+  H1.lines.forEach(l => { l.parentElement.style.display = "flex"; l.parentElement.style.justifyContent = "center"; });
+  MK.labelIn(tl, eyebrow, 0.12);
+  MK.linesIn(tl, H1.lines, 0.4, { stagger: 0.14 });
+  tl.fromTo(H1.box, { scale: 1 }, { scale: 1.035, duration: 3.2, ease: "sine.inOut", transformOrigin: "0% 50%", immediateRender: false }, 0.4);  // never dead-still
+
+  // ── ACT 2 · the end card: line wipe to dark, the line writes the wordmark, then settles into the rule
+  const T_D = 3.4, sEnd = $("sEnd");
+  MK.wipe(tl, $("wEnd"), sEnd, T_D, { dur: 0.6 });
+  const KX = 110, KY = 800, MY = KY + 70, MW = $("endMark").offsetWidth, MH = 150, TY = MY + MH + 30, RY = TY + 46 + 60, ML = MY + MH + 8;
+  const kick = MK.label(sEnd, "Season one", { x: KX, y: KY, size: 24, color: "var(--accent-d)" });
+  MK.place($("endMark"), KX, MY); MK.place($("endTag"), KX, TY);
+  Object.assign($("endLine").style, { left: KX + "px", top: ML + "px", width: MW + "px" });
+  MK.hide(tl, "#endMark", { clipPath: `inset(0px ${MW}px 0px 0px)` }); MK.hide(tl, "#endTag", { opacity: 0 }); MK.hide(tl, "#endLine", { scaleX: 0 });
+  const T_E = T_D + 0.7;
+  MK.labelIn(tl, kick, T_E);
+  tl.fromTo("#endLine", { scaleX: 0 }, { scaleX: 1, duration: 0.7, ease: "power3.inOut", immediateRender: false }, T_E + 0.12)
+    .fromTo("#endMark", { clipPath: `inset(0px ${MW}px 0px 0px)` }, { clipPath: "inset(0px 0px 0px 0px)", duration: 0.7, ease: "power3.inOut", immediateRender: false }, T_E + 0.16)
+    .fromTo("#endTag", { opacity: 0, y: 14 }, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out", immediateRender: false }, T_E + 0.75)
+    .to("#endLine", { y: RY - ML, scaleX: 180 / MW, duration: 0.75, ease: "power3.inOut" }, T_E + 1.25);
+  MK.cue(T_E + 0.12, "line", { d: 0.7 }); MK.cue(T_E + 0.8, "chime"); MK.cue(T_E + 1.25, "whoosh", { d: 0.6, g: 0.18 });
+
+  MK.grain(tl, $("grain"), DUR);
+  tl.set({}, {}, DUR);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["main"] = tl;
+  MK.finish(tl, { pulse: "" });
+});
+</script>
+</body>
+</html>

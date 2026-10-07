@@ -1,0 +1,5 @@
+numpy
+scipy
+Pillow
+playwright
+-r ../beatsync/requirements.txt

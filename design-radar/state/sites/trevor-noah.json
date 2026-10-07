@@ -1,0 +1,98 @@
+{
+  "url": "https://www.trevornoah.com",
+  "title": "Trevor Noah - Comedian, Author & Host | Official Site",
+  "stack": {
+    "THREE": false,
+    "gsap": false,
+    "ScrollTrigger": false,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 1,
+  "webgl": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+    "maxTexture": 8192,
+    "extensions": [
+      "EXT_color_buffer_float",
+      "EXT_color_buffer_half_float",
+      "EXT_float_blend",
+      "EXT_texture_compression_bptc",
+      "EXT_texture_compression_rgtc",
+      "EXT_texture_filter_anisotropic",
+      "OES_draw_buffers_indexed",
+      "OES_texture_float_linear",
+      "WEBGL_compressed_texture_astc",
+      "WEBGL_compressed_texture_etc",
+      "WEBGL_compressed_texture_etc1",
+      "WEBGL_compressed_texture_s3tc"
+    ]
+  },
+  "scroll": {
+    "dataScroll": true,
+    "dataLenis": true,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "\"Die Grotesk C\", sans-serif",
+    "\"Die Grotesk D\", sans-serif",
+    "\"Die Grotesk D\", Arial, sans-serif"
+  ],
+  "bodyBg": "rgb(29, 36, 64)",
+  "assets": {
+    "models": [
+      "https://trevornoah.itsoffbrand.io/models/TREVOR_book-opt-21.glb",
+      "https://trevornoah.itsoffbrand.io/models/TREVOR_mic-opt-01.glb",
+      "https://trevornoah.itsoffbrand.io/models/TREVOR_mic1-opt-01.glb",
+      "https://trevornoah.itsoffbrand.io/models/TREVOR_player-opt-24.glb",
+      "https://trevornoah.itsoffbrand.io/models/TREVOR_head-opt-04.glb",
+      "https://trevornoah.itsoffbrand.io/models/TREVOR_brain-opt-01.glb",
+      "https://trevornoah.itsoffbrand.io/models/TREVOR_heart-opt-01.glb",
+      "https://trevornoah.itsoffbrand.io/models/TREVOR_cloud-opt-01.glb",
+      "https://trevornoah.itsoffbrand.io/models/TREVOR_clouds-opt-01.glb",
+      "https://trevornoah.itsoffbrand.io/models/TREVOR_mug-opt-01.glb"
+    ],
+    "compressedTextures": [
+      "https://trevornoah.itsoffbrand.io/textures/bend-color-new-10.ktx2",
+      "https://trevornoah.itsoffbrand.io/textures/ktx2/paper-02.ktx2",
+      "https://trevornoah.itsoffbrand.io/textures/ktx2/eyes-scaled-02.ktx2",
+      "https://trevornoah.itsoffbrand.io/textures/ktx2/middle-gaze-03.ktx2",
+      "https://trevornoah.itsoffbrand.io/textures/ktx2/suprised-face-03.ktx2",
+      "https://trevornoah.itsoffbrand.io/textures/ktx2/born-a-crime-03.ktx2"
+    ],
+    "hdrEnv": [
+      "https://trevornoah.itsoffbrand.io/textures/bend-data-new-09.exr"
+    ],
+    "wasm": [
+      "https://trevornoah.itsoffbrand.io/basis/basis_transcoder.wasm"
+    ],
+    "video": [],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817fcc0872ba21f238f_die-grotesk-c-regular.woff2",
+      "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817a16ad0020671838c_die-grotesk-c-medium.woff2",
+      "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f8176db216a511bc1d1c_die-grotesk-c-bold.woff2",
+      "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817a720b0965491c20c_die-grotesk-d-medium.woff2",
+      "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817b73018bf7558ce73_die-grotesk-d-bold.woff2",
+      "https://cdn.prod.website-files.com/69b574b7e8a1b256fc6f5504/69c3f817a16ad00206718389_die-grotesk-b-bold.woff2"
+    ]
+  },
+  "notableLibScripts": [
+    "gtm.js?id=GTM-P7H6WQQZ"
+  ],
+  "totalRequests": 88,
+  "consoleErrors": []
+}

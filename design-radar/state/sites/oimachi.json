@@ -1,0 +1,61 @@
+{
+  "url": "https://www.oimachi.co",
+  "title": "Oimachi – Design, AI & Webflow Excellence Studio.",
+  "stack": {
+    "THREE": false,
+    "gsap": true,
+    "ScrollTrigger": true,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 0,
+  "webgl": null,
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": false,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "Aeonik, Arial, sans-serif"
+  ],
+  "bodyBg": "rgb(24, 24, 24)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [],
+    "video": [
+      "https://player.vimeo.com/progressive_redirect/playback/1202824078/rendition/1440p/file.mp4%20%281440p%29.mp4?loc=external&log_user=0&signature=6aaa8908c558bcaa925cada70b06a685827ef6303dbacf0c2e4dfb58dfbb2496",
+      "https://player.vimeo.com/progressive_redirect/playback/1128518161/rendition/540p/file.mp4?loc=external&log_user=0&signature=1ef458d27d204f348faaf84cf90f498a0cb4359d98de95fd30aca67a50c78f73",
+      "https://player.vimeo.com/progressive_redirect/playback/1056785443/rendition/360p/file.mp4?loc=external&log_user=0&signature=16956897df875549816c65f0c358dafb8a17495897f77f1fd8f554579834b8db",
+      "https://player.vimeo.com/progressive_redirect/playback/1129485024/rendition/540p/file.mp4?loc=external&log_user=0&signature=aac53e76280158d7568d77ca8920adea06f0264512c4129d329d85db9ad5e32a",
+      "https://player.vimeo.com/progressive_redirect/playback/1128146622/rendition/540p/file.mp4?loc=external&log_user=0&signature=8e33a9890fe7b92d4a7f90dd77cb7f7ce4fee64457b171e90c779d0aaa9f7b16",
+      "https://player.vimeo.com/progressive_redirect/playback/1132072936/rendition/360p/file.mp4?loc=external&log_user=0&signature=0ee8acf726cdb980de2a13433792ff16f9fbce373367a2bf234a5d9d2b52dc44"
+    ],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68b565b71ad3328c923c69f0_Aeonik-Regular.otf",
+      "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68b565b783c7eab030dcbc6e_Aeonik-Medium.otf",
+      "https://cdn.prod.website-files.com/68a1f1d118b11d82119e8540/68b5661975ae7ad10587387f_FeatureDeck-RegularItalic.otf"
+    ]
+  },
+  "notableLibScripts": [
+    "gsap.min.js",
+    "ScrollTrigger.min.js",
+    "SplitText.min.js"
+  ],
+  "totalRequests": 136,
+  "consoleErrors": []
+}

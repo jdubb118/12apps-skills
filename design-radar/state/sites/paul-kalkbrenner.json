@@ -1,0 +1,68 @@
+{
+  "url": "https://www.paulkalkbrenner.net",
+  "title": "Paul Kalkbrenner – Official Website",
+  "stack": {
+    "THREE": false,
+    "gsap": true,
+    "ScrollTrigger": true,
+    "Lenis": true,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": true,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 0,
+  "webgl": null,
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": true,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "\"ABC Diatype Plus Variable\", Arial, sans-serif"
+  ],
+  "bodyBg": "rgb(0, 0, 0)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [],
+    "video": [],
+    "audio": [
+      "https://ilja-dev.b-cdn.net/paul-kalkbrenner/Paul%20Kalkbrenner%20feat.%20Norma%20Jean%20Martine%20%E2%80%93%20Time%20To%20Dance.mp3"
+    ],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://cdn.prod.website-files.com/69bbf53ccfefd61290c68689/69c544aa9f0eeb44e81eb6e0_ABCDiatypePlusVariable.ttf",
+      "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2"
+    ]
+  },
+  "notableLibScripts": [
+    "gtm.js?id=GTM-T6LLHBR",
+    "gsap.min.js",
+    "ScrollTrigger.min.js",
+    "SplitText.min.js",
+    "CustomEase.min.js",
+    "InertiaPlugin.min.js",
+    "Draggable.min.js",
+    "Observer.min.js",
+    "Flip.min.js",
+    "barba.umd.js",
+    "lenis.min.js",
+    "analytics.js",
+    "G5s0FYD0GgWZZjbkTNlpLS4sE_pY3Ukc9b-hnMRvpHg.js"
+  ],
+  "totalRequests": 244,
+  "consoleErrors": [
+    "%c%d font-size:0;color:transparent NaN",
+    "%c%d font-size:0;color:transparent NaN"
+  ]
+}

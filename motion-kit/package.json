@@ -1,0 +1,6 @@
+{
+  "name": "motion-kit",
+  "private": true,
+  "description": "GSAP for the motion-kit compositions (copied into each piece by render.sh)",
+  "dependencies": { "gsap": "^3.13.0" }
+}

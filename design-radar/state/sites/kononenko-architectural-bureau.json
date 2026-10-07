@@ -1,0 +1,78 @@
+{
+  "url": "https://kononenkogroup.com",
+  "title": "Kononenko Architectural Bureau",
+  "stack": {
+    "THREE": false,
+    "gsap": false,
+    "ScrollTrigger": false,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": false,
+    "nuxt": false,
+    "vue": true,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 1,
+  "webgl": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+    "maxTexture": 8192,
+    "extensions": [
+      "EXT_color_buffer_float",
+      "EXT_color_buffer_half_float",
+      "EXT_float_blend",
+      "EXT_texture_compression_bptc",
+      "EXT_texture_compression_rgtc",
+      "EXT_texture_filter_anisotropic",
+      "OES_draw_buffers_indexed",
+      "OES_texture_float_linear",
+      "WEBGL_compressed_texture_astc",
+      "WEBGL_compressed_texture_etc",
+      "WEBGL_compressed_texture_etc1",
+      "WEBGL_compressed_texture_s3tc"
+    ]
+  },
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": true,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "n, sans-serif",
+    "h, serif"
+  ],
+  "bodyBg": "rgb(255, 255, 255)",
+  "assets": {
+    "models": [],
+    "compressedTextures": [
+      "https://kononenkogroup.com/ktx2/91368426f237.ktx2",
+      "https://kononenkogroup.com/ktx2/7945023954a8.ktx2",
+      "https://kononenkogroup.com/ktx2/ee4a7a8fc167.ktx2",
+      "https://kononenkogroup.com/ktx2/8b2efe31cbce.ktx2",
+      "https://kononenkogroup.com/ktx2/ff14a9ce231f.ktx2",
+      "https://kononenkogroup.com/ktx2/7f4ef39a45dc.ktx2"
+    ],
+    "hdrEnv": [],
+    "wasm": [
+      "https://kononenkogroup.com/basis/basis_transcoder.wasm"
+    ],
+    "video": [],
+    "audio": [],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://kononenkogroup.com/fonts/n.woff2",
+      "https://kononenkogroup.com/fonts/h.woff2"
+    ]
+  },
+  "notableLibScripts": [],
+  "totalRequests": 124,
+  "consoleErrors": []
+}

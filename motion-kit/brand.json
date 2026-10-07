@@ -1,0 +1,16 @@
+{
+  "_doc": "Placeholder brand. Copy this file into a piece folder (or edit it here) and make it yours. qa.py reads it.",
+  "name": "BRAND",
+  "tagline": "Your line here.",
+  "frame": { "width": 1080, "height": 1920, "fps": 30 },
+  "safe_area": { "x0": 40, "y0": 250, "x1": 1040, "y1": 1580, "_why": "9:16 story/reel UI chrome covers the top ~13% and bottom ~18%" },
+  "loudness": { "lufs": -14, "true_peak_max": -1.0 },
+  "accent_rgb": [[59, 91, 219], [124, 149, 255]],
+  "accent_max_pct": 4,
+  "copy_rules": [
+    { "pattern": "!", "why": "exclamation point" },
+    { "pattern": "\\b(sale|deals?|discount|clearance|bogo|limited[- ]time|last chance|hurry|\\d+ ?% ?off|free shipping)\\b", "why": "discount/urgency language" }
+  ],
+  "trademarks": [],
+  "_trademarks": "names that must always carry ™ when displayed, e.g. [\"Example Fabric\"]"
+}

@@ -1,0 +1,84 @@
+{
+  "url": "https://www.gionatannese.com",
+  "title": "Gionatan Nese — Multi-Disciplinary Designer",
+  "stack": {
+    "THREE": false,
+    "gsap": false,
+    "ScrollTrigger": false,
+    "Lenis": false,
+    "locomotive": false,
+    "PIXI": false,
+    "Matter": false,
+    "Rapier": false,
+    "barba": false,
+    "react": false,
+    "next": true,
+    "nuxt": false,
+    "vue": false,
+    "webgpu": true,
+    "OGL": false,
+    "curtains": false
+  },
+  "canvasCount": 1,
+  "webgl": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "glsl": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver)",
+    "maxTexture": 8192,
+    "extensions": [
+      "EXT_color_buffer_float",
+      "EXT_color_buffer_half_float",
+      "EXT_float_blend",
+      "EXT_texture_compression_bptc",
+      "EXT_texture_compression_rgtc",
+      "EXT_texture_filter_anisotropic",
+      "OES_draw_buffers_indexed",
+      "OES_texture_float_linear",
+      "WEBGL_compressed_texture_astc",
+      "WEBGL_compressed_texture_etc",
+      "WEBGL_compressed_texture_etc1",
+      "WEBGL_compressed_texture_s3tc"
+    ]
+  },
+  "scroll": {
+    "dataScroll": false,
+    "dataLenis": false,
+    "smoothWrapper": false
+  },
+  "fonts": [
+    "LayGrotesk, sans-serif",
+    "Teodor, serif"
+  ],
+  "bodyBg": "rgb(255, 255, 255)",
+  "assets": {
+    "models": [
+      "https://www.gionatannese.com/Model/model.glb"
+    ],
+    "compressedTextures": [],
+    "hdrEnv": [],
+    "wasm": [],
+    "video": [
+      "https://www.gionatannese.com/Preloader.mp4",
+      "https://www.gionatannese.com/sanity-files/b780051f3bf39567c936bf6ae21369bfaacf3c98.webm",
+      "https://www.gionatannese.com/sanity-files/46a5dfbc6824a03e4d81293730048992df04d69b.webm",
+      "https://www.gionatannese.com/sanity-files/41132eacb5e4d16a79b851ffba910b866ba6d097.webm",
+      "https://www.gionatannese.com/sanity-files/74cea00f7b65f5952472de2429d1708012281d4a.webm",
+      "https://www.gionatannese.com/sanity-files/d3b95a778819fbb2963ce9496e37c641e4da980d.webm"
+    ],
+    "audio": [
+      "https://www.gionatannese.com/audio/SCRUBBLE.mp3",
+      "https://www.gionatannese.com/audio/AMBIENT.mp3",
+      "https://www.gionatannese.com/audio/ENTER.mp3",
+      "https://www.gionatannese.com/audio/HIT.mp3"
+    ],
+    "externalShaders": [],
+    "fontFiles": [
+      "https://www.gionatannese.com/fonts/LayGrotesk-Medium.woff",
+      "https://www.gionatannese.com/fonts/Teodor-Regular.woff",
+      "https://www.gionatannese.com/fonts/Teodor-Light.woff"
+    ]
+  },
+  "notableLibScripts": [],
+  "totalRequests": 101,
+  "consoleErrors": []
+}
