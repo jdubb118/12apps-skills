@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<idPkg:Fonts xmlns:idPkg="http://ns.adobe.com/AdobeInDesign/idml/1.0/packaging" DOMVersion="21.0">
+	<FontFamily Self="di3f" Name="Minion Pro">
+		<Font Self="di3fFontnMinion Pro Regular" FontFamily="Minion Pro" Name="Minion Pro Regular" PostScriptName="MinionPro-Regular" Status="Installed" FontStyleName="Regular" FontType="OpenTypeCFF" WritingScript="0" FullName="Minion Pro" FullNameNative="Minion Pro" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 2.112;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.5900" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="di9e" Name="Myriad Pro">
+		<Font Self="di9eFontnMyriad Pro Regular" FontFamily="Myriad Pro" Name="Myriad Pro Regular" PostScriptName="MyriadPro-Regular" Status="Installed" FontStyleName="Regular" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro" FullNameNative="Myriad Pro" FontStyleNameNative="Regular" PlatformName="$ID/" Version="Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di9eFontnMyriad Pro Italic" FontFamily="Myriad Pro" Name="Myriad Pro Italic" PostScriptName="MyriadPro-It" Status="Installed" FontStyleName="Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Italic" FullNameNative="Myriad Pro Italic" FontStyleNameNative="Italic" PlatformName="$ID/" Version="Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di9eFontnMyriad Pro Bold" FontFamily="Myriad Pro" Name="Myriad Pro Bold" PostScriptName="MyriadPro-Bold" Status="Installed" FontStyleName="Bold" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold" FullNameNative="Myriad Pro Bold" FontStyleNameNative="Bold" PlatformName="$ID/" Version="Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+		<Font Self="di9eFontnMyriad Pro Bold Italic" FontFamily="Myriad Pro" Name="Myriad Pro Bold Italic" PostScriptName="MyriadPro-BoldIt" Status="Installed" FontStyleName="Bold Italic" FontType="OpenTypeCFF" WritingScript="0" FullName="Myriad Pro Bold Italic" FullNameNative="Myriad Pro Bold Italic" FontStyleNameNative="Bold Italic" PlatformName="$ID/" Version="Version 2.106;PS 2.000;hotconv 1.0.70;makeotf.lib2.5.58329" TypekitID="$ID/" />
+	</FontFamily>
+	<FontFamily Self="diab" Name="Kozuka Mincho Pr6N">
+		<Font Self="diabFontnKozuka Mincho Pr6N R" FontFamily="Kozuka Mincho Pr6N" Name="Kozuka Mincho Pr6N R" PostScriptName="KozMinPr6N-Regular" Status="Installed" FontStyleName="R" FontType="OpenTypeCID" WritingScript="1" FullName="KozMinPr6N-Regular" FullNameNative="小塚明朝 Pr6N R" FontStyleNameNative="R" PlatformName="$ID/" Version="Version 7.001;hotconv 1.0.107;makeotfexe 2.5.65593" TypekitID="$ID/" />
+	</FontFamily>
+	<CompositeFont Self="CompositeFont/$ID/[No composite font]" Name="$ID/[No composite font]">
+		<CompositeFontEntry Self="uaa" Name="$ID/Kanji" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Kozuka Mincho Pr6N</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="uac" Name="$ID/Kana" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="ぁあぃいぅうぇえぉおかがきぎくぐけげこごさざしじすずせぜそぞただちぢっつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろゎわゐゑをんゔゕゖゝゞァアィイゥウェエォオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂッツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロヮワヰヱヲンヴヵヶヷヸヹヺーヽヾ" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Kozuka Mincho Pr6N</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="uad" Name="$ID/Punctuation" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="—―‖‘’“”‥…′″∥、。〈〉《》「」『』【】〔〕〜・！（），．／：；？［］｛｝～" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Kozuka Mincho Pr6N</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="uae" Name="$ID/Symbols" FontStyle="$ID/R" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="¢£§¨¬°±´¶×÷ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψωЁАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдежзийклмнопрстуфхцчшщъыьэюяё‐†‡‰※℃Å←↑→↓⇒⇔∀∂∃∇∈∋−√∝∞∠∧∨∩∪∫∬∴∵∽≒≠≡≦≧≪≫⊂⊃⊆⊇⊥⌒■□▲△▼▽◆◇○◎●◯★☆♀♂♪♭♯〃〆〇〒〓゛゜＃＄％＆＊＋－０１２３４５６７８９＜＝＞＠ＡＢＣＤＥＦＧＨＩＪＫＬＭＮＯＰＱＲＳＴＵＶＷＸＹＺ＼＾＿｀ａｂｃｄｅｆｇｈｉｊｋｌｍｎｏｐｑｒｓｔｕｖｗｘｙｚ｜￠￡￢￣￥" Locked="true" ScaleOption="true" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Kozuka Mincho Pr6N</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="uaf" Name="$ID/Alphabetic" FontStyle="$ID/Regular" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters=" !&quot;#$%&amp;&apos;()*+,-./:;&lt;=&gt;?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ ¡¤¥¦©ª«­®¯²³µ·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿıŒœŠšŸŽžƒˆˇ˘˙˚˛˜˝–‚„•‹›⁄€™∆∏∑≈≤≥◊ﬀﬁﬂﬃﬄﬅﬆ" Locked="true" ScaleOption="false" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Minion Pro</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+		<CompositeFontEntry Self="ub0" Name="$ID/Numbers" FontStyle="$ID/Regular" RelativeSize="100" HorizontalScale="100" VerticalScale="100" CustomCharacters="0123456789" Locked="true" ScaleOption="false" BaselineShift="0">
+			<Properties>
+				<AppliedFont type="string">Minion Pro</AppliedFont>
+			</Properties>
+		</CompositeFontEntry>
+	</CompositeFont>
+</idPkg:Fonts>

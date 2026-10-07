@@ -1,0 +1,19 @@
+/* Self-test fixture for html-to-indesign: US Letter single pages (612 x 792 pt) + 9 pt bleed all round
+   = canvas 630 x 810 pt. Exercises: non-facing pages, TrueType fonts, semi-transparent panel
+   over a photo, rounded image corners, filled + stroked SVG paths, an SVG arc (raster fallback), rotated text,
+   object-fit: contain, multi-run paragraphs, right-aligned prices, text opacity. */
+@font-face { font-family: 'Sample Serif'; font-weight: 400; font-style: normal; src: url('file:///System/Library/Fonts/Supplemental/Georgia.ttf'); }
+@font-face { font-family: 'Sample Serif'; font-weight: 700; font-style: normal; src: url('file:///System/Library/Fonts/Supplemental/Georgia Bold.ttf'); }
+@font-face { font-family: 'Sample Serif'; font-weight: 400; font-style: italic; src: url('file:///System/Library/Fonts/Supplemental/Georgia Italic.ttf'); }
+@font-face { font-family: 'Sample Sans'; font-weight: 400; font-style: normal; src: url('file:///System/Library/Fonts/Supplemental/Trebuchet MS.ttf'); }
+@font-face { font-family: 'Sample Sans'; font-weight: 700; font-style: normal; src: url('file:///System/Library/Fonts/Supplemental/Trebuchet MS Bold.ttf'); }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 630pt; height: 810pt; background: #fff; }
+.page { position: relative; width: 630pt; height: 810pt; overflow: hidden; background: #f4f1ea; color: #1d1d1f; }
+.abs { position: absolute; }
+.kick { font: 700 8pt/12pt 'Sample Sans'; letter-spacing: .14em; text-transform: uppercase; }
+.title { font: 400 30pt/34pt 'Sample Serif'; }
+.body { font: 400 9.5pt/14pt 'Sample Serif'; }
+.name { font: 700 9pt/12pt 'Sample Sans'; }
+.price { font: 400 9pt/12pt 'Sample Sans'; }
+.note { font: 400 7.5pt/10pt 'Sample Sans'; color: #6b675f; }

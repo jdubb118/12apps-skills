@@ -1,0 +1,84 @@
+{
+ "name": "Sample_Linesheet",
+ "html_root": ".",
+ "work_dir": "/tmp/indesign-package-selftest/work",
+ "out_dir": "/tmp/indesign-package-selftest/out",
+ "root_selector": ".page",
+ "fonts": [
+  {
+   "css": "Sample Serif",
+   "weight": 400,
+   "style": "normal",
+   "file": "/System/Library/Fonts/Supplemental/Georgia.ttf"
+  },
+  {
+   "css": "Sample Serif",
+   "weight": 700,
+   "style": "normal",
+   "file": "/System/Library/Fonts/Supplemental/Georgia Bold.ttf"
+  },
+  {
+   "css": "Sample Serif",
+   "weight": 400,
+   "style": "italic",
+   "file": "/System/Library/Fonts/Supplemental/Georgia Italic.ttf"
+  },
+  {
+   "css": "Sample Sans",
+   "weight": 400,
+   "style": "normal",
+   "file": "/System/Library/Fonts/Supplemental/Trebuchet MS.ttf"
+  },
+  {
+   "css": "Sample Sans",
+   "weight": 700,
+   "style": "normal",
+   "file": "/System/Library/Fonts/Supplemental/Trebuchet MS Bold.ttf"
+  }
+ ],
+ "styles": {
+  "kick": "Kicker",
+  "title": "Title",
+  "body": "Body",
+  "name": "Product Name",
+  "price": "Price",
+  "note": "Note"
+ },
+ "colors": {
+  "#f4f1ea": "Oat",
+  "#1d1d1f": "Ink",
+  "#8a5a2b": "Saddle",
+  "#6b675f": "Warm Grey",
+  "#ffffff": "White",
+  "#c8a24a": "Gold",
+  "#222222": "Rule",
+  "#ece7dc": "Image Panel"
+ },
+ "readme": {
+  "title": "SAMPLE LINE SHEET (skill self-test)"
+ },
+ "documents": [
+  {
+   "idml": "Sample_Linesheet",
+   "trim": [
+    612,
+    792
+   ],
+   "bleed": 9,
+   "margins": 36,
+   "facing": false,
+   "pages": [
+    {
+     "html": "page1.html"
+    },
+    {
+     "html": "page2.html"
+    }
+   ]
+  }
+ ],
+ "char_styles": {
+  "Georgia Italic": "Italic",
+  "Georgia Bold": "Bold"
+ }
+}
